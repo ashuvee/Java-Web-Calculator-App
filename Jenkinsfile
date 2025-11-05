@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        SONARQUBE_SERVER = 'SonarQube'
+        SONARQUBE_SERVER = 'sonar'
         MVN_SETTINGS = '/etc/maven/settings.xml'
         NEXUS_URL = 'http://3.19.221.46:8081'
         NEXUS_REPO = 'maven-releases'
