@@ -1,9 +1,9 @@
 pipeline {
-    agent { label 'SonarQube' }
+    agent { label 'sonar' }
 
     tools {
         jdk 'JDK17'
-        maven 'Maven'
+        maven 'maven'
     }
 
     environment {
